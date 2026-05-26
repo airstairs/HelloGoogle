@@ -9,7 +9,7 @@ tmux has-session -t $SESSION 2>/dev/null
 if [ $? != 0 ]; then
     # Session DOES NOT exist -> Create it and set it up
     tmux new-session -d -s $SESSION
-    tmux send-keys -t $SESSION "/storage/emulated/0/x/HelloGoogle/androidstudioproject/HelloGoogle/app/src/main/assets/." C-m
+    tmux send-keys -t $SESSION "cd /storage/emulated/0/x/HelloGoogle/androidstudioproject/HelloGoogle/app/src/main/assets/." C-m
     tmux send-keys -t $SESSION "python -m http.server 9999" C-m
 fi
 
