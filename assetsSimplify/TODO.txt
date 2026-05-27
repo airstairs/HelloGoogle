@@ -1,0 +1,2 @@
+# TODO: so strip out scripts to their own directoru snd rrduce length of index html
+# TODO: remove all except orbit controls rewuiremrnts from jsm fokdrr shit
