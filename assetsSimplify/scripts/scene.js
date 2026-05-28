@@ -1,7 +1,7 @@
 const STATIC_IMAGE = 'logo.png'
   
 // Target resolution (Keep it low, e.g., 60x60, because 60x60 = 3,600 individual 3D cubes!)
-const TARGET_WIDTH = 60; 
+const TARGET_WIDTH = 37; 
 
 // --- Scene Setup ---
 const scene = new THREE.Scene();
