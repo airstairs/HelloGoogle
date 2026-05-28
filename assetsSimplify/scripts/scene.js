@@ -1,7 +1,7 @@
 const STATIC_IMAGE = 'logo.png'
   
 // Target resolution (Keep it low, e.g., 60x60, because 60x60 = 3,600 individual 3D cubes!)
-const TARGET_WIDTH = 37; 
+const TARGET_WIDTH = 48; 
 
 // --- Scene Setup ---
 const scene = new THREE.Scene();
@@ -50,7 +50,7 @@ img.onload = function() {
     const imgData = ctx.getImageData(0, 0, canvas.width, canvas.height).data;
 
     // Geometry shared by all cubes for performance
-    const geometry = new THREE.BoxGeometry(0.8, 0.8, 0.8);
+    const geometry = new THREE.BoxGeometry(3.8, 3.8, 3.8);
 
     // Center the grid alignment
     const offsetX = canvas.width / 2;
